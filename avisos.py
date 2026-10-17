@@ -404,10 +404,12 @@ def destinatarios(token, estado, buscar_nuevos=False):
     if not (yo or {}).get("ok"):
         log("El TELEGRAM_TOKEN no es válido (Telegram lo rechaza): revisa el secret en GitHub.")
         return sorted(chats)
+    log(f"  conectado al bot @{yo['result']['username']}")
     r = pedir(f"https://api.telegram.org/bot{token}/getUpdates?limit=100")
     if r is None:  # suele ser un webhook antiguo que impide leer los mensajes: lo quitamos y reintentamos
         pedir(f"https://api.telegram.org/bot{token}/deleteWebhook")
         r = pedir(f"https://api.telegram.org/bot{token}/getUpdates?limit=100")
+    log(f"  Telegram: {len((r or {}).get('result', []))} mensajes recibidos por el bot")
     antes = len(chats)
     for u in (r or {}).get("result", []):
         chat = (u.get("message") or u.get("my_chat_member") or {}).get("chat") or {}
