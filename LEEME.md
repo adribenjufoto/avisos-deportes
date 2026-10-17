@@ -2,7 +2,7 @@
 
 Bot de Telegram que avisa automáticamente (GitHub Actions, cada 10 minutos):
 
-| Equipo | Mañana del partido (07:30) | 1 hora antes | Clasificación al acabar la jornada |
+| Equipo | Mañana del partido (09:00) | 1 hora antes | Clasificación al acabar la jornada |
 |---|---|---|---|
 | 🔵🔴 FC Barcelona (todas las competiciones) | ✅ | ✅ | LaLiga y fase liga de Champions |
 | 🏀 CB Canarias (La Laguna Tenerife, ACB) | ✅ | — | Liga Endesa |
