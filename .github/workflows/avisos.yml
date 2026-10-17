@@ -1,0 +1,46 @@
+name: Avisos de partidos
+
+on:
+  schedule:
+    # cada 10 minutos de 05:00 a 23:59 UTC (de 6-7 h a 1-2 h en Suiza)
+    - cron: "*/10 5-23 * * *"
+  workflow_dispatch:  # botón "Run workflow" para lanzarlo a mano
+    inputs:
+      solo_telegram:
+        description: "Solo probar Telegram"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: avisos
+  cancel-in-progress: false
+
+jobs:
+  avisos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Revisar partidos y avisar
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+        run: |
+          if [ "${{ inputs.solo_telegram }}" = "true" ]; then
+            python avisos.py --test-telegram
+          else
+            python avisos.py
+          fi
+      - name: Guardar lo ya avisado
+        run: |
+          git config user.name "avisos-deportes"
+          git config user.email "actions@users.noreply.github.com"
+          git add datos
+          git diff --cached --quiet && exit 0
+          git commit -m "Estado $(date +%F)"
+          git pull --rebase && git push

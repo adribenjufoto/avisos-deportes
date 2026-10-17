@@ -1,0 +1,45 @@
+{
+  "hora_resumen": "07:30",
+  "zona_horaria": "Europe/Zurich",
+  "equipos": [
+    {
+      "clave": "barca",
+      "nombre": "FC Barcelona",
+      "corto": "Barça",
+      "emoji": "🔵🔴",
+      "fuente": "espn",
+      "espn_id": "83",
+      "aviso_antes_min": 60,
+      "hora_canarias": false
+    },
+    {
+      "clave": "canarias",
+      "nombre": "CB Canarias",
+      "corto": "Canarias",
+      "emoji": "🏀",
+      "fuente": "acb",
+      "acb_nombre": "La Laguna Tenerife",
+      "aviso_antes_min": 0,
+      "hora_canarias": true
+    },
+    {
+      "clave": "tenerife",
+      "nombre": "CD Tenerife",
+      "corto": "Tenerife",
+      "emoji": "💙🤍",
+      "fuente": "espn",
+      "espn_id": "245",
+      "aviso_antes_min": 0,
+      "hora_canarias": true
+    }
+  ],
+  "competiciones": {
+    "esp.1": "LaLiga",
+    "esp.2": "LaLiga Hypermotion (2.ª)",
+    "uefa.champions": "Champions League",
+    "esp.copa_del_rey": "Copa del Rey",
+    "esp.super_cup": "Supercopa de España",
+    "acb": "Liga Endesa (ACB)"
+  },
+  "con_clasificacion": ["esp.1", "esp.2", "uefa.champions", "acb"]
+}
