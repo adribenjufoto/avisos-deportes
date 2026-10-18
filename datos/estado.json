@@ -620,19 +620,9 @@
  "chats": [
   "JUXaHvgR3Xuz4A=="
  ],
- "pendientes": [
-  {
-   "comp": "acb",
-   "equipo": "canarias",
-   "inicio": "2026-10-18T16:00:00Z",
-   "mio": "La Laguna Tenerife",
-   "partido": "acb:105409",
-   "pj_antes": 3,
-   "resultado": "✅ La Laguna Tenerife 82-77 Kosner Baskonia"
-  }
- ],
+ "pendientes": [],
  "pj": {
-  "canarias|acb": 3
+  "canarias|acb": 4
  },
  "resumen_dia": "2026-10-18",
  "terminados": [
