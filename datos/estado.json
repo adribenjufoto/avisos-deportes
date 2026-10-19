@@ -623,7 +623,7 @@
  "pendientes": [],
  "pj": {
   "canarias|acb": 4,
-  "tenerife|esp.2": 9
+  "tenerife|esp.2": 10
  },
  "resumen_dia": "2026-10-19",
  "terminados": [
@@ -654,6 +654,7 @@
   "espn:401883249",
   "espn:401883229",
   "espn:401906245",
-  "acb:105409"
+  "acb:105409",
+  "espn:401883309"
  ]
 }
