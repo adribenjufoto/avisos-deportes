@@ -622,7 +622,17 @@
  "chats": [
   "JUXaHvgR3Xuz4A=="
  ],
- "pendientes": [],
+ "pendientes": [
+  {
+   "comp": "uefa.champions",
+   "equipo": "barca",
+   "inicio": "2026-10-20T19:00Z",
+   "mio": "83",
+   "partido": "espn:401915399",
+   "pj_antes": 2,
+   "resultado": "❌ Paris Saint-Germain 4-2 Barcelona"
+  }
+ ],
  "pj": {
   "barca|uefa.champions": 2,
   "canarias|acb": 4,
@@ -658,6 +668,7 @@
   "espn:401883229",
   "espn:401906245",
   "acb:105409",
-  "espn:401883309"
+  "espn:401883309",
+  "espn:401915399"
  ]
 }
