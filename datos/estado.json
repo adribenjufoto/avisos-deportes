@@ -632,6 +632,15 @@
    "partido": "espn:401883127",
    "pj_antes": 10,
    "resultado": "➖ CD Sabadell 1-1 Tenerife"
+  },
+  {
+   "comp": "esp.1",
+   "equipo": "barca",
+   "inicio": "2026-10-25T20:00Z",
+   "mio": "83",
+   "partido": "espn:401882832",
+   "pj_antes": 9,
+   "resultado": "❌ Barcelona 1-2 Real Madrid"
   }
  ],
  "pj": {
@@ -673,6 +682,7 @@
   "espn:401883309",
   "espn:401915399",
   "acb:105416",
-  "espn:401883127"
+  "espn:401883127",
+  "espn:401882832"
  ]
 }
