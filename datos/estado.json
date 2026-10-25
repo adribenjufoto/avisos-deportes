@@ -83,9 +83,9 @@
     "en_casa": true,
     "equipo": "canarias",
     "estadio": "Santiago Martín, La Laguna",
-    "estado": "in",
-    "goles_local": 89,
-    "goles_visit": 66,
+    "estado": "post",
+    "goles_local": 106,
+    "goles_visit": 76,
     "hora_canarias": true,
     "hora_valida": true,
     "id": "acb:105416",
@@ -622,7 +622,17 @@
  "chats": [
   "JUXaHvgR3Xuz4A=="
  ],
- "pendientes": [],
+ "pendientes": [
+  {
+   "comp": "acb",
+   "equipo": "canarias",
+   "inicio": "2026-10-25T12:00:00Z",
+   "mio": "La Laguna Tenerife",
+   "partido": "acb:105416",
+   "pj_antes": 4,
+   "resultado": "✅ La Laguna Tenerife 106-76 Monbus Obradoiro"
+  }
+ ],
  "pj": {
   "barca|esp.1": 9,
   "barca|uefa.champions": 3,
@@ -660,6 +670,7 @@
   "espn:401906245",
   "acb:105409",
   "espn:401883309",
-  "espn:401915399"
+  "espn:401915399",
+  "acb:105416"
  ]
 }
