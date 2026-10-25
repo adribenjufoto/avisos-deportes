@@ -625,15 +625,6 @@
  ],
  "pendientes": [
   {
-   "comp": "acb",
-   "equipo": "canarias",
-   "inicio": "2026-10-25T12:00:00Z",
-   "mio": "La Laguna Tenerife",
-   "partido": "acb:105416",
-   "pj_antes": 4,
-   "resultado": "✅ La Laguna Tenerife 106-76 Monbus Obradoiro"
-  },
-  {
    "comp": "esp.2",
    "equipo": "tenerife",
    "inicio": "2026-10-25T13:00Z",
@@ -646,7 +637,7 @@
  "pj": {
   "barca|esp.1": 9,
   "barca|uefa.champions": 3,
-  "canarias|acb": 4,
+  "canarias|acb": 5,
   "tenerife|esp.2": 10
  },
  "resumen_dia": "2026-10-25",
