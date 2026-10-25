@@ -631,6 +631,15 @@
    "partido": "acb:105416",
    "pj_antes": 4,
    "resultado": "✅ La Laguna Tenerife 106-76 Monbus Obradoiro"
+  },
+  {
+   "comp": "esp.2",
+   "equipo": "tenerife",
+   "inicio": "2026-10-25T13:00Z",
+   "mio": "245",
+   "partido": "espn:401883127",
+   "pj_antes": 10,
+   "resultado": "➖ CD Sabadell 1-1 Tenerife"
   }
  ],
  "pj": {
@@ -671,6 +680,7 @@
   "acb:105409",
   "espn:401883309",
   "espn:401915399",
-  "acb:105416"
+  "acb:105416",
+  "espn:401883127"
  ]
 }
