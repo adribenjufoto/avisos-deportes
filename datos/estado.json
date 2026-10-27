@@ -623,24 +623,14 @@
  "chats": [
   "JUXaHvgR3Xuz4A=="
  ],
- "pendientes": [
-  {
-   "comp": "esp.1",
-   "equipo": "barca",
-   "inicio": "2026-10-25T20:00Z",
-   "mio": "83",
-   "partido": "espn:401882832",
-   "pj_antes": 9,
-   "resultado": "❌ Barcelona 1-2 Real Madrid"
-  }
- ],
+ "pendientes": [],
  "pj": {
-  "barca|esp.1": 9,
+  "barca|esp.1": 10,
   "barca|uefa.champions": 3,
   "canarias|acb": 5,
   "tenerife|esp.2": 11
  },
- "resumen_dia": "2026-10-26",
+ "resumen_dia": "2026-10-27",
  "terminados": [
   "espn:401882846",
   "espn:401915435",
