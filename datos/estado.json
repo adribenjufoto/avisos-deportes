@@ -4,7 +4,7 @@
   "espn:401882832"
  ],
  "cache_acb": {
-  "fecha": "2026-10-27",
+  "fecha": "2026-10-28",
   "partidos": [
    {
     "comp": "acb",
@@ -111,7 +111,7 @@
     "inicio": "2026-10-31T20:00:00Z",
     "local": "Leyma Coruña",
     "rival": "Leyma Coruña",
-    "tv": "DAZN, Movistar Plus +, Orange",
+    "tv": "DAZN, Vamos, Orange",
     "visitante": "La Laguna Tenerife"
    },
    {
