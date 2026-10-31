@@ -103,9 +103,9 @@
     "en_casa": false,
     "equipo": "canarias",
     "estadio": "",
-    "estado": "in",
-    "goles_local": 81,
-    "goles_visit": 84,
+    "estado": "post",
+    "goles_local": 93,
+    "goles_visit": 89,
     "hora_canarias": true,
     "hora_valida": true,
     "id": "acb:105422",
@@ -624,7 +624,26 @@
  "chats": [
   "JUXaHvgR3Xuz4A=="
  ],
- "pendientes": [],
+ "pendientes": [
+  {
+   "comp": "esp.1",
+   "equipo": "barca",
+   "inicio": "2026-10-31T20:00Z",
+   "mio": "83",
+   "partido": "espn:401882822",
+   "pj_antes": 10,
+   "resultado": "✅ Barcelona 6-1 Alavés"
+  },
+  {
+   "comp": "acb",
+   "equipo": "canarias",
+   "inicio": "2026-10-31T20:00:00Z",
+   "mio": "La Laguna Tenerife",
+   "partido": "acb:105422",
+   "pj_antes": 5,
+   "resultado": "❌ Leyma Coruña 93-89 La Laguna Tenerife"
+  }
+ ],
  "pj": {
   "barca|esp.1": 10,
   "barca|uefa.champions": 3,
@@ -665,6 +684,8 @@
   "espn:401915399",
   "acb:105416",
   "espn:401883127",
-  "espn:401882832"
+  "espn:401882832",
+  "espn:401882822",
+  "acb:105422"
  ]
 }
