@@ -624,22 +624,12 @@
  "chats": [
   "JUXaHvgR3Xuz4A=="
  ],
- "pendientes": [
-  {
-   "comp": "esp.2",
-   "equipo": "tenerife",
-   "inicio": "2026-11-02T13:00Z",
-   "mio": "245",
-   "partido": "espn:401883144",
-   "pj_antes": 11,
-   "resultado": "➖ Tenerife 2-2 FC Andorra"
-  }
- ],
+ "pendientes": [],
  "pj": {
   "barca|esp.1": 11,
   "barca|uefa.champions": 3,
   "canarias|acb": 6,
-  "tenerife|esp.2": 11
+  "tenerife|esp.2": 12
  },
  "resumen_dia": "2026-11-02",
  "terminados": [
