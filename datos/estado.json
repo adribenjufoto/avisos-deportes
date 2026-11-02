@@ -633,6 +633,15 @@
    "partido": "espn:401882822",
    "pj_antes": 10,
    "resultado": "✅ Barcelona 6-1 Alavés"
+  },
+  {
+   "comp": "esp.2",
+   "equipo": "tenerife",
+   "inicio": "2026-11-02T13:00Z",
+   "mio": "245",
+   "partido": "espn:401883144",
+   "pj_antes": 11,
+   "resultado": "➖ Tenerife 2-2 FC Andorra"
   }
  ],
  "pj": {
@@ -677,6 +686,7 @@
   "espn:401883127",
   "espn:401882832",
   "espn:401882822",
-  "acb:105422"
+  "acb:105422",
+  "espn:401883144"
  ]
 }
