@@ -626,24 +626,14 @@
  "chats": [
   "JUXaHvgR3Xuz4A=="
  ],
- "pendientes": [
-  {
-   "comp": "esp.1",
-   "equipo": "barca",
-   "inicio": "2026-11-08T20:00Z",
-   "mio": "83",
-   "partido": "espn:401882816",
-   "pj_antes": 11,
-   "resultado": "✅ Atlético Madrid 1-2 Barcelona"
-  }
- ],
+ "pendientes": [],
  "pj": {
-  "barca|esp.1": 11,
+  "barca|esp.1": 12,
   "barca|uefa.champions": 4,
   "canarias|acb": 7,
   "tenerife|esp.2": 12
  },
- "resumen_dia": "2026-11-09",
+ "resumen_dia": "2026-11-10",
  "terminados": [
   "espn:401882846",
   "espn:401915435",
