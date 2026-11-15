@@ -635,6 +635,15 @@
    "partido": "acb:105439",
    "pj_antes": 7,
    "resultado": "✅ MoraBanc Andorra 84-90 La Laguna Tenerife"
+  },
+  {
+   "comp": "esp.2",
+   "equipo": "tenerife",
+   "inicio": "2026-11-15T13:00Z",
+   "mio": "245",
+   "partido": "espn:401883113",
+   "pj_antes": 12,
+   "resultado": "✅ Tenerife 2-0 Ceuta"
   }
  ],
  "pj": {
@@ -684,6 +693,7 @@
   "espn:401915387",
   "acb:105434",
   "espn:401882816",
-  "acb:105439"
+  "acb:105439",
+  "espn:401883113"
  ]
 }
