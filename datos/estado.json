@@ -160,9 +160,9 @@
     "en_casa": true,
     "equipo": "canarias",
     "estadio": "Santiago Martín, La Laguna",
-    "estado": "pre",
-    "goles_local": 0,
-    "goles_visit": 0,
+    "estado": "post",
+    "goles_local": 94,
+    "goles_visit": 82,
     "hora_canarias": true,
     "hora_valida": true,
     "id": "acb:105454",
@@ -629,20 +629,20 @@
  ],
  "pendientes": [
   {
-   "comp": "esp.2",
-   "equipo": "tenerife",
-   "inicio": "2026-11-21T20:00Z",
-   "mio": "245",
-   "partido": "espn:401883107",
-   "pj_antes": 13,
-   "resultado": "➖ Tenerife 0-0 Mallorca"
+   "comp": "esp.1",
+   "equipo": "barca",
+   "inicio": "2026-11-22T13:00Z",
+   "mio": "83",
+   "partido": "espn:401882804",
+   "pj_antes": 12,
+   "resultado": "✅ Barcelona 3-2 Villarreal"
   }
  ],
  "pj": {
   "barca|esp.1": 12,
   "barca|uefa.champions": 4,
-  "canarias|acb": 8,
-  "tenerife|esp.2": 13
+  "canarias|acb": 9,
+  "tenerife|esp.2": 14
  },
  "resumen_dia": "2026-11-22",
  "terminados": [
@@ -688,6 +688,8 @@
   "acb:105439",
   "espn:401883113",
   "espn:401928532",
-  "espn:401883107"
+  "espn:401883107",
+  "espn:401882804",
+  "acb:105454"
  ]
 }
