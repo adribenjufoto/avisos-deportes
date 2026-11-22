@@ -4,7 +4,8 @@
   "espn:401882832",
   "espn:401882822",
   "espn:401915387",
-  "espn:401882816"
+  "espn:401882816",
+  "espn:401882804"
  ],
  "cache_acb": {
   "fecha": "2026-11-22",
@@ -626,14 +627,24 @@
  "chats": [
   "JUXaHvgR3Xuz4A=="
  ],
- "pendientes": [],
+ "pendientes": [
+  {
+   "comp": "esp.2",
+   "equipo": "tenerife",
+   "inicio": "2026-11-21T20:00Z",
+   "mio": "245",
+   "partido": "espn:401883107",
+   "pj_antes": 13,
+   "resultado": "➖ Tenerife 0-0 Mallorca"
+  }
+ ],
  "pj": {
   "barca|esp.1": 12,
   "barca|uefa.champions": 4,
   "canarias|acb": 8,
   "tenerife|esp.2": 13
  },
- "resumen_dia": "2026-11-21",
+ "resumen_dia": "2026-11-22",
  "terminados": [
   "espn:401882846",
   "espn:401915435",
@@ -676,6 +687,7 @@
   "espn:401882816",
   "acb:105439",
   "espn:401883113",
-  "espn:401928532"
+  "espn:401928532",
+  "espn:401883107"
  ]
 }
