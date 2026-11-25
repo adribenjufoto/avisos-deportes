@@ -8,7 +8,7 @@
   "espn:401882804"
  ],
  "cache_acb": {
-  "fecha": "2026-11-25",
+  "fecha": "2026-11-26",
   "partidos": [
    {
     "comp": "acb",
@@ -630,7 +630,7 @@
  "pendientes": [],
  "pj": {
   "barca|esp.1": 13,
-  "barca|uefa.champions": 4,
+  "barca|uefa.champions": 5,
   "canarias|acb": 9,
   "tenerife|esp.2": 14
  },
@@ -680,6 +680,7 @@
   "espn:401928532",
   "espn:401883107",
   "espn:401882804",
-  "acb:105454"
+  "acb:105454",
+  "espn:401915378"
  ]
 }
